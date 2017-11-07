@@ -51,8 +51,5 @@ const Boards = ({boards})=> (
 </div>      
 )
     
-
-
-
 const mapToProps = ({boards}) => ({boards})
 export default connect(mapToProps)(Boards);
