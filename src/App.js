@@ -1,21 +1,67 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import{Form, FormGroup, FormControl, Checkbox, Col, ControlLabel, Button, controlId} from 'react-bootstrap';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+// import {connect} from 'redux-zero/react'
+// import {addComment} from './actions'
 
-export default App;
+
+
+
+// const App = ()=> {
+//     return ( 
+//       <div className = "singIn">
+//           <Form horizontal >
+                  
+//             <FormGroup controlId="formHorizontalEmail">
+//              <Col className = "logo" componentClass={ControlLabel} sm={2}>
+//               </Col>
+
+//               <Col sm={10}>
+//               <FormControl  id="formControlsText" label="Text" className = "input" type="text" placeholder="First name" />
+//               </Col>
+
+//         <Col sm={10}>
+//          <FormControl className = "input" type="text" placeholder="Last name" />
+//         </Col>
+
+
+//         <Col sm={10}>
+//           <FormControl className = "input" type="email" placeholder="Email" />
+//         </Col>
+//       </FormGroup>
+  
+//       <FormGroup controlId="formHorizontalPassword">
+//         <Col componentClass={ControlLabel} sm={2}>          
+//         </Col>
+//         <Col sm={10}>
+//           <FormControl className = "input" type="password" placeholder="Password"/>
+//         </Col>
+//         <Col sm={10}>
+//           <FormControl className = "input" type="password" placeholder="Confirm password"/>
+//         </Col>
+//       </FormGroup>
+    
+//       <FormGroup>
+//         <Col smOffset={2} sm={10}>
+//           <Button className= "btn" type="submit">
+//             Sign in
+//           </Button>
+//         </Col>
+//         <Col smOffset={2} sm={10}>
+//         <a className = "a" href="/sign_up" data-reactid=".0.0.0.2">Create new account</a>
+//         </Col> 
+               
+//       </FormGroup>
+//       </Form>
+
+//      </div> 
+      
+      
+       
+//   );
+// }
+
+
+// export default App;
