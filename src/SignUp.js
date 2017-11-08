@@ -5,7 +5,7 @@ import {connect} from 'redux-zero/react';
 import { Form, FormGroup, FormControl, Checkbox, Col, ControlLabel, Button, controlId } from 'react-bootstrap';
 import './SignUp.css';
 
-const SignUp = ({signUp})=> (
+const SignUp = ()=> (
     <div className = "singIn">
     <Form horizontal >
             
@@ -53,8 +53,5 @@ const SignUp = ({signUp})=> (
 </div>      
 )
     
-
-
-
-const mapToProps = ({signUp}) => ({signUp})
+const mapToProps = ({signup}) => ({signup})
 export default connect(mapToProps)(SignUp);

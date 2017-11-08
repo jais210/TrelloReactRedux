@@ -9,7 +9,6 @@ import { Form, FormGroup, FormControl, Checkbox, Col, ControlLabel, Button, cont
 
 const SignIn = () => {
 
-
   return (
     <div className="singIn">
       <Form horizontal >
